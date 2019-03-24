@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER telyn <telyn@bytemark.co.uk>
+FROM debian:stretch
+MAINTAINER telyn <175827+telyn@users.noreply.github.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get -y install \
