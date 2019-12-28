@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:buster-slim
 MAINTAINER telyn <175827+telyn@users.noreply.github.com>
 
 ENV DEBIAN_FRONTEND noninteractive
